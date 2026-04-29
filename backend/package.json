@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "for lab test",
+  "homepage": "https://github.com/PereraDMP/WmtLabTest#readme",
+  "bugs": {
+    "url": "https://github.com/PereraDMP/WmtLabTest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PereraDMP/WmtLabTest.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Perera A.M.D.D.M",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "mongoose": "^7.8.9"
+  }
+}
